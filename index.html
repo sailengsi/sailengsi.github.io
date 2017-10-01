@@ -1,57 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>赛冷思赛先生的静态demo集合</title>
-	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<body>
-	<div class="container-fuild">
-		<div class="row-fuild">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">hello word</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">Title</a>
-					</div>
-			
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-						</ul>
-						<form class="navbar-form navbar-left" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Link</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li><a href="#">Separated link</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav>
-		</div>
-	</div>
 
-	<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-	<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>赛冷思赛先生的静态demo集合</title>
+    <meta name="keywords" content="赛冷思，个人博客，赛冷思博客，赛冷思个人博客，赛冷思css,赛冷思javascript,赛冷思js,赛冷思jquery">
+	<meta name="description" content="赛冷思静态demo演示集合站，日常开发用到的需求，积累而得。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+    	#sls-demo-content{
+    		margin-top: 70px;
+    	}
+    </style>
+</head>
+
+<body>
+    <div class="container-fuild">
+        <div class="row-fuild">
+
+        	<!-- navbar -->
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">hello word</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="javascript:;">赛冷思静态演示</a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#css">Css</a></li>
+                            <li><a href="#javascript">JavaScript</a></li>
+                            <li><a href="#jquery">jQuery</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a target="_blank" href="https://sailengsi.com/">个人博客</a></li>
+                            <li class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">社交 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a target="_blank" href="https://github.com/sailengsi">Github</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- 中间内容 -->
+            <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offsete-1" id='sls-demo-content'>
+
+            	<h2>以下所有实例仅供参考，如有错误，欢迎指出。</h2>
+
+            	<!-- CSS -->
+            	<div class="panel panel-default" id='css'>
+            		<div class="panel-heading">
+            			Css
+            		</div>
+            		<div class="panel-body">
+            			<div class="col-sm-6 col-md-4">
+		                    <div class="thumbnail">
+		                        <img src="images/left-fixed-right-auto.png" alt="Css经典一侧固定另一侧自适应">
+		                        <div class="caption">
+		                            <h3>Css经典布局固定+自适应</h3>
+		                            <p>日常中有很多需要用到固定一侧，另一侧自动宽度的需求，很实用。</p>
+		                            <p>
+		                            	<a href="https://github.com/" class="btn btn-primary" role="button">Github</a> 
+		                            	<a href="/" class="btn btn-default" role="button">演示</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+            		</div>
+            	</div>
+
+
+            	<!-- javascript -->
+            	<div class="panel panel-default" id='javascript'>
+            		<div class="panel-heading">
+            			JavaScript
+            		</div>
+            		<div class="panel-body">
+            			<div class="col-sm-6 col-md-4">
+		                    <div class="thumbnail">
+		                        <img src="images/js-pic-magnifier.png" alt="原生JavaScript实现的放大镜">
+		                        <div class="caption">
+		                            <h3>原生JavaScript实现的放大镜</h3>
+		                            <p>没事写着玩，仅供参考。</p>
+		                            <p>
+		                            	<a href="https://github.com/" class="btn btn-primary" role="button">Github</a> 
+		                            	<a href="/" class="btn btn-default" role="button">演示</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-sm-6 col-md-4">
+		                    <div class="thumbnail">
+		                        <img src="images/js-route.png" alt="原生JavaScript实现简易路由">
+		                        <div class="caption">
+		                            <h3>原生JavaScript实现的简易路由</h3>
+		                            <p>没事写着玩，仅供参考。</p>
+		                            <p>
+		                            	<a href="https://github.com/" class="btn btn-primary" role="button">Github</a> 
+		                            	<a href="/" class="btn btn-default" role="button">演示</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-sm-6 col-md-4">
+		                    <div class="thumbnail">
+		                        <img src="images/js-upload-preview.png" alt="基于FileReader实现的春前端上传预览">
+		                        <div class="caption">
+		                            <h3>基于FileReader实现的春前端上传预览</h3>
+		                            <p>没事写着玩，仅供参考。</p>
+		                            <p>
+		                            	<a href="https://github.com/" class="btn btn-primary" role="button">Github</a> 
+		                            	<a href="/" class="btn btn-default" role="button">演示</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+            		</div>
+            	</div>
+
+
+            	<!-- jquery -->
+            	<div class="panel panel-default" id='jquery'>
+            		<div class="panel-heading">
+            			jQuery
+            		</div>
+            		<div class="panel-body">
+            			<div class="col-sm-6 col-md-4">
+		                    <div class="thumbnail">
+		                        <img src="images/jquery-modal.png" alt="基于jQuery的弹框插件">
+		                        <div class="caption">
+		                            <h3>基于jQuery的弹框插件</h3>
+		                            <p>没事写着玩，仅供参考。</p>
+		                            <p>
+		                            	<a href="https://github.com/" class="btn btn-primary" role="button">Github</a> 
+		                            	<a href="/" class="btn btn-default" role="button">演示</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-sm-6 col-md-4">
+		                    <div class="thumbnail">
+		                        <img src="images/jquery-checked.png" alt="基于jQuery的全选全不选插件">
+		                        <div class="caption">
+		                            <h3>基于jQuery的全选全不选插件</h3>
+		                            <p>没事写着玩，仅供参考。</p>
+		                            <p>
+		                            	<a href="https://github.com/" class="btn btn-primary" role="button">Github</a> 
+		                            	<a href="/" class="btn btn-default" role="button">演示</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+            		</div>
+            	</div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
