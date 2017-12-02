@@ -349,16 +349,18 @@
             goGits[i].onclick=(function(j){
                 return function(){
                     var repoName = this.getAttribute('data-href');
-                    console.log(repoName);
                     if (gitHost === '/') {
-                        window.location.href='https://github.com/sailengsi'+repoName;
+                        window.open('https://github.com/sailengsi'+repoName);
+                        // window.location.href='https://github.com/sailengsi'+repoName;
                         return;
                     }
                     if (gitHost === 'sailengsi.coding.me') {
-                        window.location.href=gitHost+'u/sailengsi/p/'+repoName+'/git';
+                        window.open(gitHost+'u/sailengsi/p/'+repoName+'/git');
+                        // window.location.href=gitHost+'u/sailengsi/p/'+repoName+'/git';
                         return;
                     }
-                    window.location.href = gitHost+'sailengsi'+repoName;
+                    window.open(gitHost+'sailengsi'+repoName);
+                    // window.location.href = gitHost+'sailengsi'+repoName;
                 }
             })(i);
         }
