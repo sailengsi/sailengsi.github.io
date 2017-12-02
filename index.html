@@ -352,12 +352,12 @@
             goGits[i].onclick=(function(j){
                 return function(){
                     var repoName = this.getAttribute('data-href');
-                    if (gitHost === '/') {
+                    if (host === '/') {
                         window.open('https://github.com/sailengsi'+repoName);
                         // window.location.href='https://github.com/sailengsi'+repoName;
                         return;
                     }
-                    if (gitHost === 'sailengsi.coding.me') {
+                    if (host === 'sailengsi.coding.me') {
                         window.open(gitHost+'u/sailengsi/p/'+repoName+'/git');
                         // window.location.href=gitHost+'u/sailengsi/p/'+repoName+'/git';
                         return;
