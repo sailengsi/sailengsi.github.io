@@ -350,6 +350,10 @@
                 return function(){
                     var repoName = this.getAttribute('data-href');
                     console.log(repoName);
+                    if (gitHost === '/') {
+                        window.location.href='https://github.com/sailengsi'+repoName;
+                        return;
+                    }
                     if (gitHost === 'sailengsi.coding.me') {
                         window.location.href=gitHost+'u/sailengsi/p/'+repoName+'/git';
                         return;
