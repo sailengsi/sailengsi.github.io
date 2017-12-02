@@ -1123,3 +1123,6 @@ body .site-demo-nav .layui-nav-item {
     height: 350px;
   }
 }
+.go-git{
+  cursor: pointer;
+}
